@@ -1,0 +1,23 @@
+.cardcontainer{
+    background-color: rgb(243, 243, 243);
+
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(0, 0, 0, 0.212); 
+    padding: 9px;
+    width: 100%;
+    margin: 10px 0px;
+    
+}
+
+.cardcontainer h2{
+    font-size: larger;
+}
+
+.cardcontainer button{
+    padding: 10px 30px;
+    border: unset;
+    background-color: #0088ff;
+    color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+}

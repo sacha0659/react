@@ -1,0 +1,14 @@
+.marketcontainer{
+    width: 80vw;
+    text-align: center;
+    margin-top: 120px;
+    
+}
+
+.cardcontainer{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 30% 30% 30%;
+    padding: 10px;
+}
+
