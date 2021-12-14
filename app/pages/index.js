@@ -6,7 +6,7 @@ import Marketplace from '../components/Marketplace'
 
 export default function Home() {
   return (
-    <div >
+    <div className={styles.container} >
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
@@ -15,7 +15,6 @@ export default function Home() {
       <main className={styles.container}>
       
           <Navbar/>
-          
           <Marketplace/>
         
       </main>

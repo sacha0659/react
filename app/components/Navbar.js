@@ -7,8 +7,9 @@ export default function Navbar() {
     return (
 
         <div className={styles.navcontainer}>
+            <p>Mensssu</p>
             <h3>NET Marketplace</h3>
-            <p>Menu</p>
+            <a href='/toto'>test</a>
             <div>
                 {user ? (
                     <button>
